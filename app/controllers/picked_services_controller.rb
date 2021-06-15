@@ -1,0 +1,2 @@
+class PickedServicesController < ApplicationController
+end
