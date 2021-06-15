@@ -1,0 +1,39 @@
+{
+  id: @quote.id,
+  price: @quote.price,
+  status: @quote.status,
+  customer_info: {
+    client_name: @quote.client_name, 
+    email: @quote.email, 
+    phone: @quote.phone, 
+  },
+  property_info: {
+    project_type: @quote.project_type, 
+    floors: @quote.floors, 
+    building_sqft: @quote.building_sqft, 
+    garage: @quote.garage,
+  },   
+  roof_services: {
+    selected: @quote.roof_services,
+    roof_material: @quote.roof_material, 
+    pitch_of_roof: @quote.pitch_of_roof, 
+  },
+  gutter_cleaning: {
+    selected: @quote.gutter_cleaning,
+    gutter_sqft: @quote.gutter_sqft,
+  },
+  building_wash: {
+    selected: @quote.building_wash,
+    ext_material: @quote.ext_material,
+    screen_removal: @quote.screen_removal,
+    door_material: @quote.door_material,
+  },
+  flat_surfaces: {
+    selected: @quote.flat_surfaces,
+    flt_surface_sqft: @quote.flt_surface_sqft,
+    driveway: @quote.driveway,
+    driveway_size: @quote.driveway_size,
+  },
+  rust_removal: @quote.rust_removal,
+  comments: @quote.comments,
+}
