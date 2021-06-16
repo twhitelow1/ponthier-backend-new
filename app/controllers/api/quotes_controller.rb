@@ -70,3 +70,4 @@ class Api::QuotesController < ApplicationController
     @quote.save
     render "show.json.jb"
   end
+end
