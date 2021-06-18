@@ -14,7 +14,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
   allow do
-    origins 'https://affectionate-nobel-beb889.netlify.app/'
+    origins 'https://affectionate-nobel-beb889.netlify.app'
 
     resource '*',
       headers: :any,
