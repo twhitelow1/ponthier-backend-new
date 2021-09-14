@@ -1,5 +1,5 @@
 class Api::OfferedServicesController < ApplicationController
-  has_one_attached :service_image
+  # has_one_attached :service_image
 
   def index
     @offered_services = OfferedService.all 
