@@ -1,0 +1,2 @@
+class PickedService < ApplicationRecord
+end
