@@ -44,10 +44,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'http'
 gem 'rack-cors'
 gem 'jb'
-<<<<<<< HEAD
 gem 'cloudinary'
-=======
-gem 'jwt'
-
-
->>>>>>> cb8f56010051e1288bc4b423d24069473b196b67
