@@ -4,4 +4,4 @@ Cloudinary.config do |config|
   config.api_secret = Rails.application.credentials.cloudinary[:api_secret]
   config.secure = true
   config.cdn_subdomain = true
-end
+end 
