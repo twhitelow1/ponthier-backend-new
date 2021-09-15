@@ -18,5 +18,8 @@ Rails.application.routes.draw do
     get "/services/:id" => "offered_services#show"
     delete "services/:id" => "offered_services#destroy"
     patch "/services/:id" => "offered_services#update"
+
+    post "/users" => "users#create"
+    
   end
 end
