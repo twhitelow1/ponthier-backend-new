@@ -7,6 +7,13 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
+    origins 'www.ocalapressurewashing.co'
+
+    resource '*',
+      headers: :any,
+      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+  end
+  allow do
     origins 'localhost:8080'
 
     resource '*',
@@ -15,13 +22,6 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
   allow do
     origins 'affectionate-nobel-beb889.netlify.app'
-
-    resource '*',
-      headers: :any,
-      methods: [:get, :post, :put, :patch, :delete, :options, :head]
-  end
-  allow do
-    origins 'www.ocalapressurewashing.co'
 
     resource '*',
       headers: :any,

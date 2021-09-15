@@ -20,6 +20,6 @@ Rails.application.routes.draw do
     patch "/services/:id" => "offered_services#update"
 
     post "/users" => "users#create"
-    
+
   end
 end
